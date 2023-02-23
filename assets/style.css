@@ -31,6 +31,9 @@ li {
     text-decoration: none;
 }
 
+main{
+    color: white;
+}
 /* #direct-tag */
 /* #region Utility*/
 :root {
@@ -239,8 +242,8 @@ li {
     background-color: #00000061;
 }
 
-.container_85 {
-    width: 85%;
+.container_big {
+    width: 90%;
     margin: auto;
 }
 
@@ -268,6 +271,36 @@ li {
     bottom: 0;
     left: 0;
     z-index: 10;
+}
+.total_time{
+  flex-grow: 1;
+  height: 5px;
+  background-color: var(--light);
+  width: 80%%;
+}
+
+
+
+.current_time {
+    height: 100%;
+    background-color: var(--green);
+    border-radius: 5px;
+    width: 10%;
+  }
+  
+
+.max_vol{
+    height: 5px;
+    background-color: var(--light);
+    width: 30%;
+  }
+  
+
+.vol_now{
+    height: 100%;
+    background-color: var(--green);
+    border-radius: 5px;
+    width: 50%;
 }
 
 /* #footer */
