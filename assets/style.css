@@ -10,9 +10,11 @@ body {
 
 }
 
-img {
+footer img {
     max-width: 100%;
     vertical-align: middle;
+    height: 40px;
+    width: 40px;
 }
 
 footer {
@@ -22,6 +24,7 @@ footer {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 li {
@@ -29,9 +32,6 @@ li {
 }
 
 /* #direct-tag */
-
-
-
 /* #region Utility*/
 :root {
     --primary: #141922;
@@ -40,6 +40,10 @@ li {
     --green: #86c62c;
     --footer: #282828;
     --light_gray: #a3a3a3;
+}
+
+.p_rl1 {
+    padding: 0 1rem;
 }
 
 .d_flex {
@@ -170,7 +174,7 @@ li {
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -217,7 +221,7 @@ li {
     background-color: #00000061;
     border: 1px solid white;
     color: white;
-    border-radius: 20%;
+    border-radius: 20px;
     padding: 0.6rem 1.8rem;
     margin-right: 1rem;
 
@@ -233,6 +237,25 @@ li {
 #main_top {
     height: 60px;
     background-color: #00000061;
+}
+
+.container_85 {
+    width: 85%;
+    margin: auto;
+}
+
+.max_w1200 {
+    max-width: 1200px;
+}
+
+.nav_bar ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_bar li {
+    padding: 1rem;
+    list-style: none;
 }
 
 /* #Main */
@@ -294,3 +317,15 @@ li {
 }
 
 /* #Media query  480px*/
+/* Media query 768px */
+@media screen and (min-width: 768px) {}
+
+/* #Media query 768px */
+
+/* Media query 1280px */
+
+@media screen and (min-width: 1280px) {}
+
+
+
+/* #Media query 1280px */
