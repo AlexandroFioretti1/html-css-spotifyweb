@@ -12,7 +12,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body class="debug">
+
+<body>
     <div class="text_c app_page d_flex ">
         <aside class="d_flex" id="app_sidebar">
             <div class="sidebar_top">
@@ -61,16 +62,60 @@
                             alt="profile"></button><span><strong>Alexandro</strong></span>
                 </div>
             </div>
-            <!-- /.sidebar_bottom -->
         </aside>
-        <!-- /#app_sidebar -->
         <main id="app_main">
         </main>
         <!-- /#app_main -->
     </div>
-    <footer id="app_footer">
-    </footer>
-    <!-- /#app_footer -->
-</body>
 
+
+
+
+
+    calc_footer
+
+
+
+    <footer id="app_footer" class="d_flex  jc_sb">
+        <div class="footer_left flex  calc_footer">
+            <div id="current_song_cover ">
+                <img src="./assets/img/sinister.jpeg" alt="Song_img">
+            </div>
+            <div class="d_flex f_wrap text_c jc_sb">
+                <div class="song_info">
+                    <a href="#">Sinister</a>
+                    <a href="#">Song Artist</a>
+                </div>
+                <div class="like">
+                    <i class="fa-regular fa-heart fa-fw"></i>
+                    <i class="fa-regular fa-folder fa-fw"></i>
+                </div>
+            </div>
+        </div>
+        <div class="" class="d_flex d_column ai_c jc_center calc_footer">
+            <div class="d_flex ai_c jc_sb">
+                <i class="fa-solid fa-shuffle fa-fw"></i>
+                <i class="fa-solid fa-backward-step fa-fw"></i>
+                <i class="fa-regular fa-circle-play fa-xl fa-fw"></i>
+                <i class="fa-solid fa-forward-step fa-fw"></i>
+                <i class="fa-solid fa-rotate-right fa-fw"></i>
+            </div>
+            <div class="d_flex ai_c jc_sb">
+                <span>0.25</span>
+                <div class="total_time">
+                    <div class="current_time"></div>
+                </div>
+                <span>4.35</span>
+            </div>
+        </div>
+        <div id="footer_right" class="d_flex f_wrap ai_c jc_center calc_footer">
+            <i class="fa-solid fa-list fa-fw"></i>
+            <i class="fa-solid fa-display fa-fw"></i>
+            <i class="fa-solid fa-volume-high fa-fw"></i>
+            <div class="max_vol">
+                <div id="vol_now"></div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
