@@ -17,6 +17,10 @@ footer img {
     width: 40px;
 }
 
+img{
+    max-width: 100%;
+}
+
 footer {
     background-color: var(--footer);
     color: var(--light);
@@ -31,9 +35,10 @@ li {
     text-decoration: none;
 }
 
-main{
+main {
     color: white;
 }
+
 /* #direct-tag */
 /* #region Utility*/
 :root {
@@ -242,6 +247,7 @@ main{
     background-color: #00000061;
 }
 
+
 .container_big {
     width: 90%;
     margin: auto;
@@ -261,7 +267,15 @@ main{
     list-style: none;
 }
 
+/* col */
+
+.col_6 {
+    width: calc(100% / 12 * 6);
+    
+}
+
 /* #Main */
+
 /* Region Footer */
 
 #app_footer {
@@ -272,31 +286,28 @@ main{
     left: 0;
     z-index: 10;
 }
-.total_time{
-  flex-grow: 1;
-  height: 5px;
-  background-color: var(--light);
-  width: 80%%;
+
+.total_time {
+    flex-grow: 1;
+    height: 5px;
+    background-color: var(--light);
+    width: 80%;
 }
-
-
 
 .current_time {
     height: 100%;
     background-color: var(--green);
     border-radius: 5px;
     width: 10%;
-  }
-  
+}
 
-.max_vol{
+.max_vol {
     height: 5px;
     background-color: var(--light);
     width: 30%;
-  }
-  
+}
 
-.vol_now{
+.vol_now {
     height: 100%;
     background-color: var(--green);
     border-radius: 5px;
@@ -351,13 +362,23 @@ main{
 
 /* #Media query  480px*/
 /* Media query 768px */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) { 
+    .col_md3 {
+        width: calc(100% / 12 * 3);
+    }
+
+}
 
 /* #Media query 768px */
 
 /* Media query 1280px */
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .col_lg2 {
+        width: calc(100% / 12 * 2);
+    }
+
+}
 
 
 
