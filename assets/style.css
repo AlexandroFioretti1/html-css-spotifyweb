@@ -12,6 +12,7 @@ body {
 
 img {
     max-width: 100%;
+    vertical-align: middle;
 }
 
 footer {
@@ -19,7 +20,17 @@ footer {
     color: var(--light);
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
 /* #direct-tag */
+
+
 
 /* #region Utility*/
 :root {
@@ -34,11 +45,17 @@ footer {
 .d_flex {
     display: flex;
 }
-.calc_footer{
+
+.calc_footer {
     width: calc(100% / 3);
 }
+
 .jc_sb {
     justify-content: space-between;
+}
+
+.jc_end {
+    justify-content: end;
 }
 
 .jc_center {
@@ -63,6 +80,11 @@ footer {
 
 .text_c {
     text-align: center;
+}
+
+.update {
+    display: inline-block;
+
 }
 
 /* #Utility */
@@ -191,11 +213,26 @@ footer {
     display: none;
 }
 
+.header_button {
+    background-color: #00000061;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20%;
+    padding: 0.6rem 1.8rem;
+    margin-right: 1rem;
+
+}
+
 /* Region Main */
 #app_main {
     width: calc(100% - 50px);
     text-align: left;
     overflow-y: auto;
+}
+
+#main_top {
+    height: 60px;
+    background-color: #00000061;
 }
 
 /* #Main */
